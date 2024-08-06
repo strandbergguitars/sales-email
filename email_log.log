@@ -1,0 +1,1036 @@
+2024-08-02 15:10:20,034:INFO:Försöker att ansluta till SMTP-servern.
+2024-08-02 15:10:20,053:ERROR:Ett fel inträffade: please run connect() first
+2024-08-02 15:11:32,862:ERROR:En eller flera miljövariabler saknas.
+2024-08-02 15:13:46,344:INFO:sender_email None
+2024-08-02 15:13:46,344:ERROR:En eller flera miljövariabler saknas.
+2024-08-02 15:15:03,784:ERROR:.env-filen hittades inte.
+2024-08-02 15:16:07,812:ERROR:.env-filen hittades inte.
+2024-08-02 15:17:31,086:INFO:.env-filen hittades och laddades in från: /Users/matsduvner/scripts/Analytics Email/.env
+2024-08-02 15:17:31,086:INFO:Försöker att ansluta till SMTP-servern: secure.emailsrvr.com på port 465.
+2024-08-02 15:18:31,669:ERROR:Ett fel inträffade: Connection unexpectedly closed
+2024-08-02 15:19:23,425:INFO:.env-filen hittades på: /Users/matsduvner/scripts/Analytics Email/.env
+2024-08-02 15:19:23,427:INFO:.env-filen laddades in.
+2024-08-02 15:19:23,427:INFO:Försöker att ansluta till SMTP-servern: secure.emailsrvr.com på port 465 med SSL.
+2024-08-02 15:19:24,381:INFO:Inloggning till SMTP-servern lyckades.
+2024-08-02 15:19:25,085:INFO:E-postmeddelandet har skickats till mats@strandbergguitars.com.
+2024-08-02 15:19:25,291:INFO:SMTP-anslutningen avslutades.
+2024-08-02 15:25:38,264:ERROR:En eller flera miljövariabler saknas eller är ogiltiga.
+2024-08-02 15:27:36,535:INFO:Laddade konfigurationsvärden: {'sender_email': 'ditt_email@example.com', 'password': 'ditt_lösenord', 'smtp_server': 'smtp.example.com', 'smtp_port': '465', 'receiver_email': 'mats@strandbergguitars.com'}
+2024-08-02 15:27:36,535:INFO:Försöker att ansluta till SMTP-servern: smtp.example.com på port 465 med SSL.
+2024-08-02 15:27:36,706:ERROR:Ett oväntat fel inträffade: [Errno 8] nodename nor servname provided, or not known
+2024-08-02 15:28:36,871:INFO:Laddade konfigurationsvärden: {'sender_email': 'analytics@strandberg.guitars', 'password': 'Otc!)0@?@!VD]hLR[kLjL0Izi0H', 'smtp_server': 'secure.emailsrvr.com', 'smtp_port': '465', 'receiver_email': 'mats@strandbergguitars.com'}
+2024-08-02 15:28:36,872:INFO:Försöker att ansluta till SMTP-servern: secure.emailsrvr.com på port 465 med SSL.
+2024-08-02 15:28:37,934:INFO:Inloggning till SMTP-servern lyckades.
+2024-08-02 15:28:38,677:INFO:E-postmeddelandet har skickats till mats@strandbergguitars.com.
+2024-08-02 15:28:38,834:INFO:SMTP-anslutningen avslutades.
+2024-08-02 15:40:00,828:INFO:Laddade konfigurationsvärden: {'sender_email': 'analytics@strandberg.guitars', 'password': 'Otc!)0@?@!VD]hLR[kLjL0Izi0H', 'smtp_server': 'secure.emailsrvr.com', 'smtp_port': '465'}
+2024-08-02 15:40:00,830:INFO:Laddade mottagare: ['mats@strandbergguitars.com', 'mats@duvner.com']
+2024-08-02 15:40:00,830:INFO:Försöker att ansluta till SMTP-servern: secure.emailsrvr.com på port 465 med SSL.
+2024-08-02 15:40:01,814:INFO:Inloggning till SMTP-servern lyckades.
+2024-08-02 15:40:02,888:INFO:E-postmeddelandet har skickats till mats@strandbergguitars.com.
+2024-08-02 15:40:03,115:INFO:SMTP-anslutningen avslutades.
+2024-08-02 15:40:03,116:INFO:Försöker att ansluta till SMTP-servern: secure.emailsrvr.com på port 465 med SSL.
+2024-08-02 15:40:04,163:INFO:Inloggning till SMTP-servern lyckades.
+2024-08-02 15:40:04,893:INFO:E-postmeddelandet har skickats till mats@duvner.com.
+2024-08-02 15:40:05,047:INFO:SMTP-anslutningen avslutades.
+2024-08-02 16:27:12,166:INFO:Laddade konfigurationsvärden: {'sender_email': 'analytics@strandberg.guitars', 'password': 'Otc!)0@?@!VD]hLR[kLjL0Izi0H', 'smtp_server': 'secure.emailsrvr.com', 'smtp_port': '465'}
+2024-08-02 16:27:12,167:INFO:Laddade mottagare: ['mats@strandbergguitars.com', 'mats@duvner.com']
+2024-08-02 16:27:12,167:INFO:Försöker att ansluta till SMTP-servern: secure.emailsrvr.com på port 465 med SSL.
+2024-08-02 16:27:13,244:INFO:Inloggning till SMTP-servern lyckades.
+2024-08-02 16:27:14,092:INFO:E-postmeddelandet har skickats till mats@strandbergguitars.com.
+2024-08-02 16:27:14,246:INFO:SMTP-anslutningen avslutades.
+2024-08-02 16:27:14,247:INFO:Försöker att ansluta till SMTP-servern: secure.emailsrvr.com på port 465 med SSL.
+2024-08-02 16:27:15,139:INFO:Inloggning till SMTP-servern lyckades.
+2024-08-02 16:27:15,865:INFO:E-postmeddelandet har skickats till mats@duvner.com.
+2024-08-02 16:27:16,022:INFO:SMTP-anslutningen avslutades.
+2024-08-02 16:29:57,508:INFO:Laddade konfigurationsvärden: {'sender_email': 'analytics@strandberg.guitars', 'password': 'Otc!)0@?@!VD]hLR[kLjL0Izi0H', 'smtp_server': 'secure.emailsrvr.com', 'smtp_port': '465', 'db_server': '35.176.166.138,50653', 'db_name': 'sage', 'db_user': 'Power_BI', 'db_password': 'OGqbbAKGnNuGbt3Kcwsu'}
+2024-08-02 16:29:57,509:INFO:Laddade mottagare: ['mats@strandbergguitars.com', 'mats@duvner.com']
+2024-08-02 16:29:57,509:INFO:Försöker ansluta till databasen
+2024-08-02 16:29:58,365:INFO:Anslutning till databasen lyckades
+2024-08-02 16:29:58,367:INFO:Läste SQL-frågan: SELECT
+    'Web EU orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 101
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'Web EU sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 101
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'EU Reverb orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 101
+    AND LEFT([SO Reference], 2) = 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'EU Reverb sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 101
+    AND LEFT([SO Reference], 2) = 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'Web US orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 211
+    AND LEFT([SO Reference], 2) <> 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'Web US sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 211
+    AND LEFT([SO Reference], 2) <> 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'US Reverb orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 211
+    AND LEFT([SO Reference], 2) = 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'US Reverb sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 211
+    AND LEFT([SO Reference], 2) = 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'US B2B orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] IN (212, 213, 214)
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'US B2B sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] IN (212, 213, 214)
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'EU B2B orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] IN (102, 103, 104)
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'EU B2B sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] IN (102, 103, 104)
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE);
+
+
+2024-08-02 16:29:58,367:INFO:Ställer SQL-frågan
+2024-08-02 16:29:58,601:INFO:SQL-frågan kördes framgångsrikt
+2024-08-02 16:29:58,602:INFO:Hämtade resultat: [{'Category': 'Web EU orders', 'Row Count': 3}, {'Category': 'Web EU sold instruments', 'Row Count': 3}, {'Category': 'EU Reverb orders', 'Row Count': 0}, {'Category': 'EU Reverb sold instruments', 'Row Count': 0}, {'Category': 'Web US orders', 'Row Count': 10}, {'Category': 'Web US sold instruments', 'Row Count': 10}, {'Category': 'US Reverb orders', 'Row Count': 4}, {'Category': 'US Reverb sold instruments', 'Row Count': 4}, {'Category': 'US B2B orders', 'Row Count': 5}, {'Category': 'US B2B sold instruments', 'Row Count': 10}, {'Category': 'EU B2B orders', 'Row Count': 0}, {'Category': 'EU B2B sold instruments', 'Row Count': 0}]
+2024-08-02 16:29:58,719:INFO:Databasanslutningen stängdes
+2024-08-02 16:29:58,720:INFO:Försöker att ansluta till SMTP-servern: secure.emailsrvr.com på port 465 med SSL.
+2024-08-02 16:29:59,767:INFO:Inloggning till SMTP-servern lyckades.
+2024-08-02 16:30:00,486:INFO:E-postmeddelandet har skickats till mats@strandbergguitars.com.
+2024-08-02 16:30:00,643:INFO:SMTP-anslutningen avslutades.
+2024-08-02 16:30:00,643:INFO:Försöker att ansluta till SMTP-servern: secure.emailsrvr.com på port 465 med SSL.
+2024-08-02 16:30:02,028:INFO:Inloggning till SMTP-servern lyckades.
+2024-08-02 16:30:02,753:INFO:E-postmeddelandet har skickats till mats@duvner.com.
+2024-08-02 16:30:02,920:INFO:SMTP-anslutningen avslutades.
+2024-08-02 16:32:33,570:INFO:Laddade konfigurationsvärden: {'sender_email': 'analytics@strandberg.guitars', 'password': 'Otc!)0@?@!VD]hLR[kLjL0Izi0H', 'smtp_server': 'secure.emailsrvr.com', 'smtp_port': '465', 'db_server': '35.176.166.138,50653', 'db_name': 'sage', 'db_user': 'Power_BI', 'db_password': 'OGqbbAKGnNuGbt3Kcwsu'}
+2024-08-02 16:32:33,576:INFO:Laddade mottagare: ['mats@strandbergguitars.com', 'mats@duvner.com']
+2024-08-02 16:32:33,576:INFO:Försöker ansluta till databasen
+2024-08-02 16:32:34,312:INFO:Anslutning till databasen lyckades
+2024-08-02 16:32:34,327:INFO:Läste SQL-frågan: SELECT
+    'Web EU orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 101
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'Web EU sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 101
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'EU Reverb orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 101
+    AND LEFT([SO Reference], 2) = 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'EU Reverb sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 101
+    AND LEFT([SO Reference], 2) = 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'Web US orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 211
+    AND LEFT([SO Reference], 2) <> 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'Web US sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 211
+    AND LEFT([SO Reference], 2) <> 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'US Reverb orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 211
+    AND LEFT([SO Reference], 2) = 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'US Reverb sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 211
+    AND LEFT([SO Reference], 2) = 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'US B2B orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] IN (212, 213, 214)
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'US B2B sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] IN (212, 213, 214)
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'EU B2B orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] IN (102, 103, 104)
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'EU B2B sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] IN (102, 103, 104)
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE);
+
+
+2024-08-02 16:32:34,327:INFO:Ställer SQL-frågan
+2024-08-02 16:32:34,552:INFO:SQL-frågan kördes framgångsrikt
+2024-08-02 16:32:34,553:INFO:Hämtade resultat: [{'Category': 'Web EU orders', 'Row Count': 3}, {'Category': 'Web EU sold instruments', 'Row Count': 3}, {'Category': 'EU Reverb orders', 'Row Count': 0}, {'Category': 'EU Reverb sold instruments', 'Row Count': 0}, {'Category': 'Web US orders', 'Row Count': 10}, {'Category': 'Web US sold instruments', 'Row Count': 10}, {'Category': 'US Reverb orders', 'Row Count': 4}, {'Category': 'US Reverb sold instruments', 'Row Count': 4}, {'Category': 'US B2B orders', 'Row Count': 5}, {'Category': 'US B2B sold instruments', 'Row Count': 10}, {'Category': 'EU B2B orders', 'Row Count': 0}, {'Category': 'EU B2B sold instruments', 'Row Count': 0}]
+2024-08-02 16:32:34,603:INFO:Databasanslutningen stängdes
+2024-08-02 16:32:34,604:INFO:Försöker att ansluta till SMTP-servern: secure.emailsrvr.com på port 465 med SSL.
+2024-08-02 16:32:35,774:INFO:Inloggning till SMTP-servern lyckades.
+2024-08-02 16:32:36,544:INFO:E-postmeddelandet har skickats till mats@strandbergguitars.com.
+2024-08-02 16:32:36,675:INFO:SMTP-anslutningen avslutades.
+2024-08-02 16:32:36,676:INFO:Försöker att ansluta till SMTP-servern: secure.emailsrvr.com på port 465 med SSL.
+2024-08-02 16:32:37,585:INFO:Inloggning till SMTP-servern lyckades.
+2024-08-02 16:32:38,317:INFO:E-postmeddelandet har skickats till mats@duvner.com.
+2024-08-02 16:32:38,439:INFO:SMTP-anslutningen avslutades.
+2024-08-02 16:38:15,928:INFO:Laddade konfigurationsvärden: {'sender_email': 'analytics@strandberg.guitars', 'password': 'Otc!)0@?@!VD]hLR[kLjL0Izi0H', 'smtp_server': 'secure.emailsrvr.com', 'smtp_port': '465', 'db_server': '35.176.166.138,50653', 'db_name': 'sage', 'db_user': 'Power_BI', 'db_password': 'OGqbbAKGnNuGbt3Kcwsu'}
+2024-08-02 16:38:15,930:INFO:Laddade mottagare: ['mats@strandbergguitars.com', 'mats@duvner.com']
+2024-08-02 16:38:15,930:INFO:Försöker ansluta till databasen
+2024-08-02 16:38:16,656:INFO:Anslutning till databasen lyckades
+2024-08-02 16:38:16,659:INFO:Läste SQL-frågan: SELECT
+    'Web EU orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 101
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'Web EU sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 101
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'EU Reverb orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 101
+    AND LEFT([SO Reference], 2) = 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'EU Reverb sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 101
+    AND LEFT([SO Reference], 2) = 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'Web US orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 211
+    AND LEFT([SO Reference], 2) <> 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'Web US sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 211
+    AND LEFT([SO Reference], 2) <> 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'US Reverb orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 211
+    AND LEFT([SO Reference], 2) = 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'US Reverb sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 211
+    AND LEFT([SO Reference], 2) = 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'US B2B orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] IN (212, 213, 214)
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'US B2B sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] IN (212, 213, 214)
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'EU B2B orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] IN (102, 103, 104)
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'EU B2B sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] IN (102, 103, 104)
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE);
+
+
+2024-08-02 16:38:16,659:INFO:Ställer SQL-frågan
+2024-08-02 16:38:16,873:INFO:SQL-frågan kördes framgångsrikt
+2024-08-02 16:38:16,873:INFO:Hämtade resultat: [{'Category': 'Web EU orders', 'Row Count': 3}, {'Category': 'Web EU sold instruments', 'Row Count': 3}, {'Category': 'EU Reverb orders', 'Row Count': 0}, {'Category': 'EU Reverb sold instruments', 'Row Count': 0}, {'Category': 'Web US orders', 'Row Count': 10}, {'Category': 'Web US sold instruments', 'Row Count': 10}, {'Category': 'US Reverb orders', 'Row Count': 4}, {'Category': 'US Reverb sold instruments', 'Row Count': 4}, {'Category': 'US B2B orders', 'Row Count': 5}, {'Category': 'US B2B sold instruments', 'Row Count': 10}, {'Category': 'EU B2B orders', 'Row Count': 0}, {'Category': 'EU B2B sold instruments', 'Row Count': 0}]
+2024-08-02 16:38:16,932:INFO:Databasanslutningen stängdes
+2024-08-02 16:38:16,932:INFO:Försöker att ansluta till SMTP-servern: secure.emailsrvr.com på port 465 med SSL.
+2024-08-02 16:38:18,118:INFO:Inloggning till SMTP-servern lyckades.
+2024-08-02 16:38:18,712:INFO:E-postmeddelandet har skickats till mats@strandbergguitars.com.
+2024-08-02 16:38:18,892:INFO:SMTP-anslutningen avslutades.
+2024-08-02 16:38:18,893:INFO:Försöker att ansluta till SMTP-servern: secure.emailsrvr.com på port 465 med SSL.
+2024-08-02 16:38:19,739:INFO:Inloggning till SMTP-servern lyckades.
+2024-08-02 16:38:20,464:INFO:E-postmeddelandet har skickats till mats@duvner.com.
+2024-08-02 16:38:20,599:INFO:SMTP-anslutningen avslutades.
+2024-08-02 16:41:35,746:INFO:Laddade konfigurationsvärden: {'sender_email': 'analytics@strandberg.guitars', 'password': 'Otc!)0@?@!VD]hLR[kLjL0Izi0H', 'smtp_server': 'secure.emailsrvr.com', 'smtp_port': '465', 'db_server': '35.176.166.138,50653', 'db_name': 'sage', 'db_user': 'Power_BI', 'db_password': 'OGqbbAKGnNuGbt3Kcwsu'}
+2024-08-02 16:41:35,749:INFO:Laddade mottagare: ['mats@strandbergguitars.com', 'mats@duvner.com']
+2024-08-02 16:41:35,749:INFO:Försöker ansluta till databasen
+2024-08-02 16:41:36,580:INFO:Anslutning till databasen lyckades
+2024-08-02 16:41:36,584:INFO:Läste SQL-frågan: SELECT
+    'Web EU orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 101
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'Web EU sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 101
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'EU Reverb orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 101
+    AND LEFT([SO Reference], 2) = 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'EU Reverb sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 101
+    AND LEFT([SO Reference], 2) = 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'Web US orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 211
+    AND LEFT([SO Reference], 2) <> 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'Web US sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 211
+    AND LEFT([SO Reference], 2) <> 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'US Reverb orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 211
+    AND LEFT([SO Reference], 2) = 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'US Reverb sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 211
+    AND LEFT([SO Reference], 2) = 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'US B2B orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] IN (212, 213, 214)
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'US B2B sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] IN (212, 213, 214)
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'EU B2B orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] IN (102, 103, 104)
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'EU B2B sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] IN (102, 103, 104)
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE);
+
+
+2024-08-02 16:41:36,584:INFO:Ställer SQL-frågan
+2024-08-02 16:41:36,804:INFO:SQL-frågan kördes framgångsrikt
+2024-08-02 16:41:36,805:INFO:Hämtade resultat: [{'Category': 'Web EU orders', 'Row Count': 3}, {'Category': 'Web EU sold instruments', 'Row Count': 3}, {'Category': 'EU Reverb orders', 'Row Count': 0}, {'Category': 'EU Reverb sold instruments', 'Row Count': 0}, {'Category': 'Web US orders', 'Row Count': 10}, {'Category': 'Web US sold instruments', 'Row Count': 10}, {'Category': 'US Reverb orders', 'Row Count': 4}, {'Category': 'US Reverb sold instruments', 'Row Count': 4}, {'Category': 'US B2B orders', 'Row Count': 5}, {'Category': 'US B2B sold instruments', 'Row Count': 10}, {'Category': 'EU B2B orders', 'Row Count': 0}, {'Category': 'EU B2B sold instruments', 'Row Count': 0}]
+2024-08-02 16:41:36,852:INFO:Databasanslutningen stängdes
+2024-08-02 16:41:36,853:INFO:Försöker att ansluta till SMTP-servern: secure.emailsrvr.com på port 465 med SSL.
+2024-08-02 16:41:37,688:INFO:Inloggning till SMTP-servern lyckades.
+2024-08-02 16:41:38,419:INFO:E-postmeddelandet har skickats till mats@duvner.com.
+2024-08-02 16:41:38,603:INFO:SMTP-anslutningen avslutades.
+2024-08-02 16:45:35,193:INFO:Laddade konfigurationsvärden: {'sender_email': 'analytics@strandberg.guitars', 'password': 'Otc!)0@?@!VD]hLR[kLjL0Izi0H', 'smtp_server': 'secure.emailsrvr.com', 'smtp_port': '465', 'db_server': '35.176.166.138,50653', 'db_name': 'sage', 'db_user': 'Power_BI', 'db_password': 'OGqbbAKGnNuGbt3Kcwsu'}
+2024-08-02 16:45:35,194:INFO:Laddade mottagare: ['mats@strandbergguitars.com', 'mats@duvner.com']
+2024-08-02 16:45:35,194:INFO:Försöker ansluta till databasen
+2024-08-02 16:45:35,935:INFO:Anslutning till databasen lyckades
+2024-08-02 16:45:35,939:INFO:Läste SQL-frågan: SELECT
+    'Web EU orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 101
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'Web EU sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 101
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'EU Reverb orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 101
+    AND LEFT([SO Reference], 2) = 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'EU Reverb sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 101
+    AND LEFT([SO Reference], 2) = 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'Web US orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 211
+    AND LEFT([SO Reference], 2) <> 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'Web US sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 211
+    AND LEFT([SO Reference], 2) <> 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'US Reverb orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 211
+    AND LEFT([SO Reference], 2) = 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'US Reverb sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 211
+    AND LEFT([SO Reference], 2) = 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'US B2B orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] IN (212, 213, 214)
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'US B2B sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] IN (212, 213, 214)
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'EU B2B orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] IN (102, 103, 104)
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'EU B2B sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] IN (102, 103, 104)
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE);
+
+
+2024-08-02 16:45:35,939:INFO:Ställer SQL-frågan
+2024-08-02 16:45:36,201:INFO:SQL-frågan kördes framgångsrikt
+2024-08-02 16:45:36,202:INFO:Hämtade resultat: [{'Category': 'Web EU orders', 'Row Count': 3}, {'Category': 'Web EU sold instruments', 'Row Count': 3}, {'Category': 'EU Reverb orders', 'Row Count': 0}, {'Category': 'EU Reverb sold instruments', 'Row Count': 0}, {'Category': 'Web US orders', 'Row Count': 10}, {'Category': 'Web US sold instruments', 'Row Count': 10}, {'Category': 'US Reverb orders', 'Row Count': 4}, {'Category': 'US Reverb sold instruments', 'Row Count': 4}, {'Category': 'US B2B orders', 'Row Count': 5}, {'Category': 'US B2B sold instruments', 'Row Count': 10}, {'Category': 'EU B2B orders', 'Row Count': 0}, {'Category': 'EU B2B sold instruments', 'Row Count': 0}]
+2024-08-02 16:45:36,254:INFO:Databasanslutningen stängdes
+2024-08-02 16:45:36,255:INFO:Försöker att ansluta till SMTP-servern: secure.emailsrvr.com på port 465 med SSL.
+2024-08-02 16:45:37,280:INFO:Inloggning till SMTP-servern lyckades.
+2024-08-02 16:45:38,026:INFO:E-postmeddelandet har skickats till mats@duvner.com.
+2024-08-02 16:45:38,183:INFO:SMTP-anslutningen avslutades.
+2024-08-04 16:24:27,632:INFO:Laddade konfigurationsvärden: {'sender_email': 'analytics@strandberg.guitars', 'password': 'Otc!)0@?@!VD]hLR[kLjL0Izi0H', 'smtp_server': 'secure.emailsrvr.com', 'smtp_port': '465', 'db_server': '35.176.166.138,50653', 'db_name': 'sage', 'db_user': 'Power_BI', 'db_password': 'OGqbbAKGnNuGbt3Kcwsu'}
+2024-08-04 16:24:27,639:INFO:Laddade mottagare: ['mats@strandbergguitars.com', 'mats@duvner.com']
+2024-08-04 16:24:27,639:INFO:Försöker ansluta till databasen
+2024-08-04 16:24:28,656:INFO:Anslutning till databasen lyckades
+2024-08-04 16:24:28,677:INFO:Läste SQL-frågan: SELECT
+    'Web EU orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 101
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'Web EU sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 101
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'EU Reverb orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 101
+    AND LEFT([SO Reference], 2) = 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'EU Reverb sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 101
+    AND LEFT([SO Reference], 2) = 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'Web US orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 211
+    AND LEFT([SO Reference], 2) <> 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'Web US sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 211
+    AND LEFT([SO Reference], 2) <> 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'US Reverb orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 211
+    AND LEFT([SO Reference], 2) = 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'US Reverb sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 211
+    AND LEFT([SO Reference], 2) = 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'US B2B orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] IN (212, 213, 214)
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'US B2B sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] IN (212, 213, 214)
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'EU B2B orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] IN (102, 103, 104)
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'EU B2B sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] IN (102, 103, 104)
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE);
+
+
+2024-08-04 16:24:28,678:INFO:Ställer SQL-frågan
+2024-08-04 16:24:29,943:INFO:SQL-frågan kördes framgångsrikt
+2024-08-04 16:24:29,944:INFO:Hämtade resultat: [{'Category': 'Web EU orders', 'Row Count': 1}, {'Category': 'Web EU sold instruments', 'Row Count': 1}, {'Category': 'EU Reverb orders', 'Row Count': 0}, {'Category': 'EU Reverb sold instruments', 'Row Count': 0}, {'Category': 'Web US orders', 'Row Count': 2}, {'Category': 'Web US sold instruments', 'Row Count': 2}, {'Category': 'US Reverb orders', 'Row Count': 0}, {'Category': 'US Reverb sold instruments', 'Row Count': 0}, {'Category': 'US B2B orders', 'Row Count': 0}, {'Category': 'US B2B sold instruments', 'Row Count': 0}, {'Category': 'EU B2B orders', 'Row Count': 0}, {'Category': 'EU B2B sold instruments', 'Row Count': 0}]
+2024-08-04 16:24:30,025:INFO:Databasanslutningen stängdes
+2024-08-04 16:24:30,027:INFO:Försöker att ansluta till SMTP-servern: secure.emailsrvr.com på port 465 med SSL.
+2024-08-04 16:24:31,481:INFO:Inloggning till SMTP-servern lyckades.
+2024-08-04 16:24:33,897:INFO:E-postmeddelandet har skickats till mats@duvner.com.
+2024-08-04 16:24:34,061:INFO:SMTP-anslutningen avslutades.
+2024-08-04 16:26:14,394:INFO:Laddade konfigurationsvärden: {'sender_email': 'analytics@strandberg.guitars', 'password': 'Otc!)0@?@!VD]hLR[kLjL0Izi0H', 'smtp_server': 'secure.emailsrvr.com', 'smtp_port': '465', 'db_server': '35.176.166.138,50653', 'db_name': 'sage', 'db_user': 'Power_BI', 'db_password': 'OGqbbAKGnNuGbt3Kcwsu'}
+2024-08-04 16:26:14,395:INFO:Laddade mottagare: ['mats@strandbergguitars.com', 'mats@duvner.com']
+2024-08-04 16:26:14,395:INFO:Försöker ansluta till databasen
+2024-08-04 16:26:15,320:INFO:Anslutning till databasen lyckades
+2024-08-04 16:26:15,323:INFO:Läste SQL-frågan.
+2024-08-04 16:26:15,324:INFO:Ställer SQL-frågan
+2024-08-04 16:26:16,506:INFO:SQL-frågan kördes framgångsrikt
+2024-08-04 16:26:16,506:INFO:Hämtade resultat: [{'Category': 'Web EU orders', 'Row Count': 1}, {'Category': 'Web EU sold instruments', 'Row Count': 1}, {'Category': 'EU Reverb orders', 'Row Count': 0}, {'Category': 'EU Reverb sold instruments', 'Row Count': 0}, {'Category': 'Web US orders', 'Row Count': 2}, {'Category': 'Web US sold instruments', 'Row Count': 2}, {'Category': 'US Reverb orders', 'Row Count': 0}, {'Category': 'US Reverb sold instruments', 'Row Count': 0}, {'Category': 'US B2B orders', 'Row Count': 0}, {'Category': 'US B2B sold instruments', 'Row Count': 0}, {'Category': 'EU B2B orders', 'Row Count': 0}, {'Category': 'EU B2B sold instruments', 'Row Count': 0}]
+2024-08-04 16:26:16,581:INFO:Databasanslutningen stängdes
+2024-08-04 16:26:16,583:INFO:Försöker att ansluta till SMTP-servern: secure.emailsrvr.com på port 465 med SSL.
+2024-08-04 16:26:17,712:INFO:Inloggning till SMTP-servern lyckades.
+2024-08-04 16:26:20,079:INFO:E-postmeddelandet har skickats till mats@duvner.com.
+2024-08-04 16:26:20,265:INFO:SMTP-anslutningen avslutades.

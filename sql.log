@@ -1,0 +1,241 @@
+2024-08-02 16:08:30,516 - INFO - Startar scriptet och laddar miljövariabler
+2024-08-02 16:08:30,517 - INFO - Använder DB_SERVER: 35.176.166.138,50653, DB_NAME: sage, DB_USER: Power_BI
+2024-08-02 16:08:30,517 - INFO - Försöker ansluta till databasen
+2024-08-02 16:08:31,504 - INFO - Anslutning till databasen lyckades
+2024-08-02 16:08:31,507 - INFO - Läste SQL-frågan: SELECT
+    'Site 101' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 101
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'Site 211 - RV' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 211
+    AND LEFT([SO Reference], 2) = 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'Site 211 - Others' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 211
+    AND LEFT([SO Reference], 2) <> 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'US B2B' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] IN (212, 213, 214)
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'EU B2B' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] IN (102, 103, 104)
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE);
+2024-08-02 16:08:31,508 - INFO - Ställer SQL-frågan
+2024-08-02 16:08:31,638 - INFO - SQL-frågan kördes framgångsrikt
+2024-08-02 16:08:31,639 - INFO - Hämtade resultat: [{'Category': 'Site 101', 'Row Count': 3}, {'Category': 'Site 211 - RV', 'Row Count': 4}, {'Category': 'Site 211 - Others', 'Row Count': 10}, {'Category': 'US B2B', 'Row Count': 10}, {'Category': 'EU B2B', 'Row Count': 0}]
+2024-08-02 16:08:31,639 - INFO - Resultat rad: {'Category': 'Site 101', 'Row Count': 3}
+2024-08-02 16:08:31,639 - INFO - Resultat rad: {'Category': 'Site 211 - RV', 'Row Count': 4}
+2024-08-02 16:08:31,639 - INFO - Resultat rad: {'Category': 'Site 211 - Others', 'Row Count': 10}
+2024-08-02 16:08:31,639 - INFO - Resultat rad: {'Category': 'US B2B', 'Row Count': 10}
+2024-08-02 16:08:31,639 - INFO - Resultat rad: {'Category': 'EU B2B', 'Row Count': 0}
+2024-08-02 16:08:31,690 - INFO - Databasanslutningen stängdes
+2024-08-02 16:22:24,170 - INFO - Startar scriptet och laddar miljövariabler
+2024-08-02 16:22:24,172 - INFO - Använder DB_SERVER: 35.176.166.138,50653, DB_NAME: sage, DB_USER: Power_BI
+2024-08-02 16:22:24,172 - INFO - Försöker ansluta till databasen
+2024-08-02 16:22:24,959 - INFO - Anslutning till databasen lyckades
+2024-08-02 16:22:24,961 - INFO - Läste SQL-frågan: SELECT
+    'Web EU orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 101
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'Web EU sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 101
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'EU Reverb orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 101
+    AND LEFT([SO Reference], 2) = 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'EU Reverb sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 101
+    AND LEFT([SO Reference], 2) = 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'Web US orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 211
+    AND LEFT([SO Reference], 2) <> 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'Web US sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 211
+    AND LEFT([SO Reference], 2) <> 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'US Reverb orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 211
+    AND LEFT([SO Reference], 2) = 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'US Reverb sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] = 211
+    AND LEFT([SO Reference], 2) = 'RV'
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'US B2B orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] IN (212, 213, 214)
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'US B2B sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] IN (212, 213, 214)
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'EU B2B orders' AS Category,
+    COUNT(DISTINCT [SO Reference]) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] IN (102, 103, 104)
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE)
+
+UNION ALL
+
+SELECT
+    'EU B2B sold instruments' AS Category,
+    COUNT(*) AS [Row Count]
+FROM
+    [sage].[PROD].[ZZDATASALESORDER_TABLE_V2]
+WHERE
+    [Sales type] = 'Sales instruments'
+    AND [Sales site] IN (102, 103, 104)
+    AND CAST([Original Sales order date] AS DATE) = CAST(DATEADD(day, -1, GETDATE()) AS DATE);
+
+
+2024-08-02 16:22:24,961 - INFO - Ställer SQL-frågan
+2024-08-02 16:22:25,229 - INFO - SQL-frågan kördes framgångsrikt
+2024-08-02 16:22:25,230 - INFO - Hämtade resultat: [{'Category': 'Web EU orders', 'Row Count': 3}, {'Category': 'Web EU sold instruments', 'Row Count': 3}, {'Category': 'EU Reverb orders', 'Row Count': 0}, {'Category': 'EU Reverb sold instruments', 'Row Count': 0}, {'Category': 'Web US orders', 'Row Count': 10}, {'Category': 'Web US sold instruments', 'Row Count': 10}, {'Category': 'US Reverb orders', 'Row Count': 4}, {'Category': 'US Reverb sold instruments', 'Row Count': 4}, {'Category': 'US B2B orders', 'Row Count': 5}, {'Category': 'US B2B sold instruments', 'Row Count': 10}, {'Category': 'EU B2B orders', 'Row Count': 0}, {'Category': 'EU B2B sold instruments', 'Row Count': 0}]
+2024-08-02 16:22:25,230 - INFO - Resultat rad: {'Category': 'Web EU orders', 'Row Count': 3}
+2024-08-02 16:22:25,230 - INFO - Resultat rad: {'Category': 'Web EU sold instruments', 'Row Count': 3}
+2024-08-02 16:22:25,230 - INFO - Resultat rad: {'Category': 'EU Reverb orders', 'Row Count': 0}
+2024-08-02 16:22:25,231 - INFO - Resultat rad: {'Category': 'EU Reverb sold instruments', 'Row Count': 0}
+2024-08-02 16:22:25,231 - INFO - Resultat rad: {'Category': 'Web US orders', 'Row Count': 10}
+2024-08-02 16:22:25,231 - INFO - Resultat rad: {'Category': 'Web US sold instruments', 'Row Count': 10}
+2024-08-02 16:22:25,231 - INFO - Resultat rad: {'Category': 'US Reverb orders', 'Row Count': 4}
+2024-08-02 16:22:25,231 - INFO - Resultat rad: {'Category': 'US Reverb sold instruments', 'Row Count': 4}
+2024-08-02 16:22:25,231 - INFO - Resultat rad: {'Category': 'US B2B orders', 'Row Count': 5}
+2024-08-02 16:22:25,231 - INFO - Resultat rad: {'Category': 'US B2B sold instruments', 'Row Count': 10}
+2024-08-02 16:22:25,231 - INFO - Resultat rad: {'Category': 'EU B2B orders', 'Row Count': 0}
+2024-08-02 16:22:25,231 - INFO - Resultat rad: {'Category': 'EU B2B sold instruments', 'Row Count': 0}
+2024-08-02 16:22:25,283 - INFO - Databasanslutningen stängdes

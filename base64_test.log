@@ -1,0 +1,24 @@
+2024-08-06 14:24:13,704:INFO:Test e-mail sent successfully.
+2024-08-06 14:25:11,259:INFO:Test e-mail sent successfully.
+2024-08-06 14:27:19,968:INFO:Loading config from: /Users/matsduvner/scripts/Analytics Email/.env
+2024-08-06 14:27:19,970:INFO:Config loaded: {'sender_email': 'analytics@strandberg.guitars', 'password': 'Otc!)0@?@!VD]hLR[kLjL0Izi0H', 'smtp_server': 'secure.emailsrvr.com', 'smtp_port': 465}
+2024-08-06 14:27:19,970:INFO:Converting image: sales_data_plot_WUSmRV.png
+2024-08-06 14:27:19,972:INFO:Image converted to BASE64. Length: 54800
+2024-08-06 14:27:19,972:INFO:HTML content created. Length: 54946
+2024-08-06 14:27:19,972:INFO:Attempting to send test email
+2024-08-06 14:27:19,972:INFO:Attempting to connect to SMTP server: secure.emailsrvr.com:465
+2024-08-06 14:27:20,895:INFO:Connected to SMTP server. Attempting login.
+2024-08-06 14:27:21,214:INFO:Login successful. Creating email message.
+2024-08-06 14:27:21,214:INFO:Sending email to: mats.duvner@gmail.com
+2024-08-06 14:27:24,468:INFO:Test e-mail sent successfully.
+2024-08-06 14:35:39,777:INFO:Loading config from: /Users/matsduvner/scripts/Analytics Email/.env
+2024-08-06 14:35:39,778:INFO:Config loaded: {'sender_email': 'analytics@strandberg.guitars', 'password': 'Otc!)0@?@!VD]hLR[kLjL0Izi0H', 'smtp_server': 'secure.emailsrvr.com', 'smtp_port': 465}
+2024-08-06 14:35:39,778:INFO:Converting image: sales_data_plot_WUSmRV.png
+2024-08-06 14:35:39,779:INFO:Image converted to BASE64. Length: 54800
+2024-08-06 14:35:39,779:INFO:HTML content created. Length: 54946
+2024-08-06 14:35:39,779:INFO:Attempting to send test email
+2024-08-06 14:35:39,779:INFO:Attempting to connect to SMTP server: secure.emailsrvr.com:465
+2024-08-06 14:35:40,372:INFO:Connected to SMTP server. Attempting login.
+2024-08-06 14:35:40,673:INFO:Login successful. Creating email message.
+2024-08-06 14:35:40,676:INFO:Sending email to: mats@duvner.com
+2024-08-06 14:35:43,793:INFO:Test e-mail sent successfully.
